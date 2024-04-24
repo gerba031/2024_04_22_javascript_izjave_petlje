@@ -46,3 +46,42 @@ for (var x = 0; x < wierdBrojcaniNiz.length; x++) {
 
 console.log("sumaW=" + sumaW);
 
+var names = ["john", "jane", "mike"];
+var name1 = names[0];
+
+names[5] = "holly";
+console.log(names[5]);
+console.log(names);
+
+var matrix = [[1, 2, 3], ["john", "jane", "mike"],];
+console.log(matrix[0][1]);
+
+for (var i = 0; i < matrix.length; i++) {
+    //console.log( matrix[i].join());
+    for (var j = 0; j < matrix[i].length; j++) {
+        console.log("matrix [" + i + "][" + j + "] = " + matrix[i][j]);
+        //    console.log(matrix[i][j]);
+    }
+}
+
+var myNames = ["john", "jane", , "mike"];
+var y = 1;
+
+for (var myName of myNames) {
+    console.log(y+"." + myName);
+    y++;
+}
+
+//  ili
+
+var myNames1 = ["john", "jane", , "mike"];
+
+
+for (var myName1 of myNames1) {
+    console.log(myName1);
+    
+}
+
+
+
+
